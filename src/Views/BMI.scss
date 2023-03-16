@@ -1,0 +1,808 @@
+.bmi-background {
+    background: linear-gradient(135deg,  rgba(34,193,195,1) 0%, rgba(253,187,45,1));
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    .bmi-container {
+        display: flex;
+        // border: 1px solid red;
+        box-shadow: 0px 4px 90px 0px rgba(0,0,0,0.06);
+        width: 765px;
+        margin: auto;
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        background-color: rgba(255,252,248,1);
+        padding: 10px;
+        height: 100vh;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        position: relative;
+        // margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: 0px;
+        .blood {
+            display: flex;
+            flex-direction: row;
+            // border: 1px solid green;
+            // border-color: transparent;
+            height: 250px;
+            margin-top: 4px;
+            justify-content: space-between;
+            margin-top: 30px;
+            .blood-sugar {
+                // border: 1px solid pink;
+                width: 30%;
+                background-color: rgba(255,255,255,1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .img-sugar {
+                    display: flex;
+                    // border: 1px solid red;
+                    height: 30%;
+                    padding: 10px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .text {
+                        color: black;
+                        font-size: larger;
+                        font-weight: 500;
+                    }
+                    .sugar-content {
+                        display: flex;
+                        // border: 1px solid red;
+                        width: 60px;
+                        height: 60px;
+                        color: transparent;
+                        background-color: rgba(248,222,189,1);
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        position: relative;
+                        
+                        .img-sugar-1 {
+                            position: relative;
+                            width: 40px;
+                            height: 40px;
+                            background-color: transparent;
+                            color: transparent;
+                            
+                        }
+                        .img-sugar-2 {
+                            width: 20px;
+                            height: 20px;
+                            position: absolute;
+                            top: 12px;
+                            left: 20px;
+                            
+                        }
+                    }
+                    
+                }
+                .text-content {
+                    display:flex ;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    // border: 1px solid red;
+                    height: 10%;
+                    align-items: center;
+                    .number {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-left: -10px;
+                    }
+                    .text {
+                        color: gray;
+                        font-size: 24px;
+                        margin-left: 10px;
+                    }
+                    
+                }
+                .img-chart {
+                    // border: 1px solid red;
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+                    .text-blood-normal {
+                        // border: 1px solid red;
+                        width: 70px;
+                        height: 30px;
+                        // padding: 10 0px;
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        border-radius: 4px;
+                        border-color: transparent;
+                        background-color: rgba(248,222,189,1);
+                    }
+                    .text-normal {
+                        font-size: 14px;
+                        font-weight: 600;
+                        text-align: center;
+                        align-items: center;
+                        // margin-top: 10px;
+                    }
+                    .chart {
+                        // background-size: contain;
+                        // border: 1px solid green;
+                        height: 100%;
+                        position: relative;
+                        .blood1 {
+                            position: absolute;
+                            height: 82px;
+                            width: 100%;
+                            margin-top: 12px;
+                            // background-size: contain;
+                            // border: 1px solid green;
+                        }
+                        .blood2 {
+                            position: absolute;
+                            height: 82px;
+                            width: 100%;
+                            // border: 1px solid green;
+                        }
+                    }
+                }
+            }
+            .heart-rate {
+                // border: 1px solid pink;
+                width: 30%;
+                background-color: rgba(255,255,255,1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .img-heart{
+                    display: flex;
+                    // border: 1px solid red;
+                    height: 30%;
+                    padding: 10px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .text {
+                        color: black;
+                        font-size: larger;
+                        font-weight: 500;
+                    }
+                    .heart-content {
+                        display: flex;
+                        // border: 1px solid red;
+                        width: 60px;
+                        height: 60px;
+                        color: transparent;
+                        background-color: rgba(248,222,189,1);
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        position: relative;
+                        
+                        .img-heart-1 {
+                            position: relative;
+                            width: 40px;
+                            height: 40px;
+                            background-color: transparent;
+                            color: transparent;
+                            
+                        }
+                        .img-heart-2 {
+                            width: 20px;
+                            height: 20px;
+                            position: absolute;
+                            top: 12px;
+                            left: 20px;
+                            
+                        }
+                    }
+                }
+                .text-content-heart {
+                    display:flex ;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    // border: 1px solid green;
+                    width: 100%;
+                    height: 10%;
+                    align-items: center;
+                    .number {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-left: -10px;
+                    }
+                    .text {
+                        color: gray;
+                        font-size: 24px;
+                        margin-left: 10px;
+                    }
+                    
+                }
+                .img-chart {
+                    // border: 1px solid red;
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+                    .text-heart-normal {
+                        // border: 1px solid red;
+                        width: 70px;
+                        height: 30px;
+                        // padding: 10 0px;
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        border-radius: 4px;
+                        border-color: transparent;
+                        background-color: rgba(251,240,243,1);
+                    }
+                    .text-normal {
+                        font-size: 14px;
+                        font-weight: 600;
+                        text-align: center;
+                        align-items: center;
+                        // margin-top: 10px;
+                    }
+                    .chart-heart {
+                        // background-size: contain;
+                        // border: 1px solid green;
+                        height: 100%;
+                        position: relative;
+                        .heart1 {
+                            position: absolute;
+                            height: 82px;
+                            width: 100%;
+                            margin-top: 12px;
+                            // background-size: contain;
+                            // border: 1px solid green;
+                        }
+                        .heart2 {
+                            position: absolute;
+                            height: 82px;
+                            width: 100%;
+                            // border: 1px solid green;
+                        }
+                    }
+                }
+            }
+            .blood-pressure {
+                // border: 1px solid pink;
+                width: 30%;
+                background-color: rgba(255,255,255,1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                
+                .img-pressure{
+                    display: flex;
+                    // border: 1px solid red;
+                    height: 30%;
+                    padding: 10px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .text {
+                        color: black;
+                        font-size: large;
+                        font-weight: 500;
+                    }
+                    .pressure-content {
+                        display: flex;
+                        // border: 1px solid red;
+                        width: 60px;
+                        height: 60px;
+                        color: transparent;
+                        background-color: rgba(248,222,189,1);
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        position: relative;
+                        
+                        .img-pressure-1 {
+                            position: relative;
+                            width: 40px;
+                            height: 40px;
+                            background-color: transparent;
+                            color: transparent;
+                            
+                        }
+                    }
+                }
+                .text-content-pressure {
+                    display:flex ;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    // border: 1px solid green;
+                    width: 100%;
+                    height: 10%;
+                    align-items: center;
+                    .number {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-left: -10px;
+                    }
+                    .text {
+                        color: gray;
+                        font-size: 14px;
+                        margin-left: 10px;
+                    }
+                    
+                }
+                .img-chart {
+                    // border: 1px solid red;
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+                    .text-pressure-normal {
+                        // border: 1px solid red;
+                        width: 70px;
+                        height: 30px;
+                        // padding: 10 0px;
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        border-radius: 4px;
+                        border-color: transparent;
+                        background-color: rgba(208,250,255,1);
+                    }
+                    .text-normal {
+                        font-size: 14px;
+                        font-weight: 600;
+                        text-align: center;
+                        align-items: center;
+                        // margin-top: 10px;
+                    }
+                    .chart-pressure {
+                        // background-size: contain;
+                        // border: 1px solid green;
+                        height: 100%;
+                        position: relative;
+                        .pressure1 {
+                            position: absolute;
+                            height: 82px;
+                            width: 100%;
+                            margin-top: 12px;
+                            // background-size: contain;
+                            // border: 1px solid green;
+                        }
+                        .pressure2 {
+                            position: absolute;
+                            height: 82px;
+                            width: 100%;
+                            // border: 1px solid green;
+                        }
+                    }
+                }
+            }
+        }
+        .bmi-content {
+            display: flex;
+            flex-direction: column;
+            // border: 1px solid red;
+            width: 100%;
+            // padding: 10px;
+            align-items: center;
+            // justify-content: center;
+            .header {
+                // border: 1px solid red;
+                width: 100%;
+                height: 20px;
+                display: flex;
+                flex-direction: column;
+                .text-over {
+                    font-size: large;
+                    font-weight: bold;
+                }
+                .date{
+                    font-size: 14px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: 500;
+                    color: gray;
+                }
+            }
+            .row-12 {
+                display: flex;
+                flex-direction: row;
+                // border: 1px solid red;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                padding: 10px;
+                .col-radio {
+                    display: flex;
+                    flex-direction: column;
+                    height: 40px;
+                    // border: 1px solid red;
+                    // padding: 10px;
+                    justify-content: space-between;
+                    .radio-2 {
+                        
+                    }
+                }
+            }
+            .form-floating {
+                // margin-top: 10px;
+            }
+            .text-bmi {
+                // display: flex;
+                width: 250px;
+                text-align: center;
+                justify-content: center;
+                font-weight: 500;
+                font-size: 15px;
+                padding-top: 10px;
+            }
+            .bmi-input {
+                margin: 7px 0;
+                input:focus{
+                    box-shadow: inset 0px -3px 0px 0px rgba(34,193,195,0.7);
+                    outline: none;
+                 }
+                input  ::-webkit-input-placeholder  {
+                    opacity: 1;
+                    transition: opacity 0.25s ease-out;
+                }
+                input:hover::-webkit-input-placeholder,
+                input:focus::-webkit-input-placeholder{
+                    opacity: 0;
+                  }
+                .custom-Password {
+                    position: relative;
+                }
+                i {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+            }
+            .btn-bmi {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                margin: 10px 0;
+                outline: none;
+                height: 35px;
+                border-radius: 15px;
+                border: none;
+                color: black;
+                cursor: pointer;
+                transition: opacity 0.25s ease-out;
+                background: linear-gradient(135deg,  rgba(34,193,195,1) 0%, rgba(253,187,45,1));
+                
+            }
+            button:hover{
+                opacity: 0.6;
+              }
+            .forgot-passwork {
+                font-size: 12px;
+                color: rgb(201, 136, 57);
+            }
+            .text-orbmi {
+                font-size: 12px;
+                font-weight: 100;
+            }
+        }
+        .chart-paint {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            // border: 1px solid green;
+            width: 100%;
+            align-items: center;
+        }
+    }
+    .bmi-container1 {
+        // border: 1px solid red;
+        width: 590px;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+        background-color: rgba(47,47,47,1);
+        padding: 10px;
+        // background-color: white;
+        height: 100vh;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        .header-bmi {
+            // border: 1px solid green;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            padding: 10px 30px;
+            .text-bmi {
+                color: white;
+                font-weight: 300;
+                font-size: 24px;
+            }
+            .week {
+                display: flex;
+                flex-direction: row;
+                // border: 1px solid rgba(201,201,201,1);
+                border-radius: 7px;
+                padding: 10px;
+                align-items: center;
+                justify-content: space-between;
+                .text-week {
+                    color: white;
+                    align-items: center;
+                    margin-right: 5px;
+                }
+                .arrow {
+                    color: white;
+                    align-items: center;
+                }
+                .img {
+                    height: 20px;
+                    width: 20px;
+                    color: white;
+                    align-items: center;
+                    background: url(https://cdn2.iconfinder.com/data/icons/arrows-line-1/100/v_arrow_down-256.png);
+                    background-size: contain;
+                    background-color: transparent;
+                    // border: 1px solid red;
+                }
+            }
+        }
+        .content-container {
+            // border: 1px solid red;
+            margin-top: 15px;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .content-bmi {
+                // border: 1px solid green;
+                padding: 10px;
+                height: 200px;
+                width: 200px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                box-sizing: border-box;
+                margin-right: 6px;
+                .height {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    // border: 1px solid blue;
+                    justify-content: space-around;
+                    background-color: rgba(247, 222,188 ,1);
+                    .text{
+                        color: black;
+                        margin-bottom: 10px;
+                    }
+                    .img {
+                        // position: absolute;
+                        margin-top: 10px;
+                        margin-left: 75px;
+                        // border: 1px solid red;
+                        width: 55%;
+                        height: 55%;
+                        background-image: url('../../public/do.png');
+                        background-size: cover;
+                    }
+                    width: 100%;
+                    height: 40%;
+                    .height-text {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+                .weight {
+                    display: flex;
+                    flex-direction: column;
+                    // border: 1px solid pink;
+                    width: 100%;
+                    height: 40%;
+                    justify-content: center;
+                    background-color: rgba(208, 250,255 ,1);
+                    .text{
+                        color: black;
+                        margin-bottom: 10px;
+                    }
+                    .img {
+                        // position: absolute;
+                        margin-top: 10px;
+                        margin-left: 75px;
+                        // border: 1px solid red;
+                        width: 55%;
+                        height: 65%;
+                        background-image: url('../../public/do-xanh.png');
+                        background-size: cover;
+                    }
+                    .weight-text {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .content-bmi-result {
+                display: flex;
+                background-color: rgba(74,73,73,1);
+                flex-direction: column;
+                // border: 1px solid red;
+                padding: 20px;
+                // height: 200px;
+                width: 350px;
+                box-sizing: border-box;
+                .text-content {
+                    // border: 1px solid green;
+                    height: 33%;
+                    width: 100%;
+                    padding: 10px;
+                    text-align: center;
+                    .text {
+                        color: white;
+                        text-align: center;
+                    }
+                }
+                .text-result {
+                    height: 33%;
+                    // border: 1px solid green;
+                    padding: 10px;
+                    margin-top: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    .text-1 {
+                        margin-left: -50px;
+                        font-size: 26px;
+                    }
+                    .text-2 {
+                        background-color: rgba(213,255,221,1);
+                        padding: 5px;
+                        color: black;
+                        border-radius: 10px;
+                        margin-right: -30px;
+                    }
+                }
+
+                .text-proceed {
+                    padding: 10px;
+                    height: 33%;
+                    // border: 1px solid green;
+                    margin-top: 10px;
+                    color: white;
+                    .proceed-1 {
+                        background-color: red;
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        margin-bottom: 5px;
+                        margin-left: 80px;
+                    }
+                    .proceed-2 {
+                        width: 100%;
+                        // border: 1px solid green;
+                        height: 18px;
+                        border-radius: 10px;
+                        background: linear-gradient(135deg,  rgba(34,193,195,1) 0%, rgba(253,187,45,1));
+                        margin-bottom: 5px;
+                    }
+                    .proceed-3 {
+                        // border: 1px solid green;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+        .footer {
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            height: 300px;
+            justify-content: space-around;
+            color: white;
+            .imformation {
+                border: 1px solid blue;
+                padding: 10px 20px;
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                .text-body-1 {
+                    font-size: 22px;
+                    font-family: Mulish;
+                    color: rgba(255,255,255,1);
+                }
+    
+                .text-check-span {
+                    display: flex;
+                    font-size: 12px;
+                    align-self: auto;
+                    font-weight: 700;
+                    text-align: center;
+                    align-items: center;
+                    .text-check {
+                        align-items: center;
+                        text-align: center;
+                        font-size: 10;
+                        font-style: Bold;
+                        color: rgba(201,201,201,1);
+                    }
+                }
+                .inverted {
+                    // border: 1px solid red;
+                    margin-top: 6px;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                    font-size: 14px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    background-color: rgba(93,93,93,1);
+                }
+                .advice {
+                    margin-top: 10px;
+                    // border: 1px solid red;
+                    text-align: center;
+                    justify-content: center;
+                    padding: 10px;
+                    color: black;
+                    align-items: center;
+                    background-color: rgba(208, 250,255 ,1);
+                    border-radius: 10px;
+                    .text-advice{
+                        font-size: 12px;
+                        color: goldenrod;
+                    }
+                    .btn-bmi {
+                        text-align: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .male {
+                // border: 1px solid green;
+                padding: 10px 20px;
+                width: 45%;
+                background: url(../../public/male.png) center;
+                background-size: contain;
+                background-repeat: no-repeat;
+
+            }
+        }
+    }
+}

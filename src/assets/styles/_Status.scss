@@ -1,0 +1,201 @@
+@font-face {
+	font-family: "Apertura";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://dietitiansaustralia.org.au/themes/custom/diet_aus_theme/fonts/apertura-regular.otf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Apertura";
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://dietitiansaustralia.org.au/themes/custom/diet_aus_theme/fonts/apertura-medium.otf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Apertura";
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://dietitiansaustralia.org.au/themes/custom/diet_aus_theme/fonts/apertura-bold.otf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Apertura";
+	font-style: normal;
+	font-weight: 900;
+	src: url(https://dietitiansaustralia.org.au/themes/custom/diet_aus_theme/fonts/apertura-black.otf) format("truetype");
+	font-display: swap;
+}
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+.header {
+	display: flex !important;
+	justify-content: center;
+}
+.main_content {
+	margin: .25em 1.5em;
+}
+.mt-3.text-uppercase.align-middle {
+	justify-content: center !important;
+}
+.card-body {
+	flex: 1 1 auto;
+	padding: 3rem 3rem;
+	color: #737B7D;
+}
+* {
+	box-sizing: border-box;
+	box-sizing: border-box;
+}
+::before {
+	box-sizing: border-box;
+}
+::after {
+	box-sizing: border-box;
+}
+.card-title {
+	margin-bottom: 1rem;
+	margin-bottom: 1rem;
+	padding-right: 4rem;
+	::after {
+		background-repeat: no-repeat;
+		background-size: 2rem;
+		content: "";
+		display: inline-block;
+		height: 2rem;
+		opacity: 0;
+		position: absolute;
+		right: 2rem;
+		top: 2.75rem;
+		transition: opacity 0.15s linear;
+		width: 2rem;
+		background-repeat: no-repeat;
+	}
+	&:hover {
+		::after {
+			opacity: 1;
+		}
+	}
+	a {
+		transition: all 0.2s ease-in-out;
+	}
+}
+.card-text {
+	&:last-child {
+		margin-bottom: 0;
+	}
+	align-self: flex-start;
+	padding-right: .75rem;
+}
+.card-text.col {
+	color: #008266;
+}
+a {
+	color: #00A380;
+	text-decoration: underline;
+	&:hover {
+		color: #008266;
+	}
+}
+.text-decoration-none {
+	text-decoration: none !important;
+}
+.mt-4 {
+	margin-top: 1.5rem !important;
+}
+.badge {
+	display: inline-block;
+	padding: 0.35em 0.65em;
+	font-size: 0.75em;
+	font-weight: 500;
+	line-height: 1;
+	color: #FFF;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+}
+.bg-primary {
+	background-color: #00A380 !important;
+}
+.rounded-pill {
+	border-radius: 50rem !important;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.position-relative {
+	position: relative !important;
+}
+.pt-6 {
+	padding-top: 5rem !important;
+}
+.pb-6 {
+	padding-bottom: 5rem !important;
+}
+#main-wrapper {
+	z-index: 15;
+}
+.card {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #F3F3F5;
+	border: 0 solid rgba(0,0,0,0.125);
+	border-radius: 0;
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		background: #FFF;
+		box-shadow: 0 0.1rem 0.6rem rgba(183,76,209,0.25);
+		transform: translateY(-0.25rem);
+	}
+}
+.card-body.row.row-cols-1 {
+	border-radius: 10px;
+	padding: 1em;
+	background-color: #b1f6c0;
+	&:hover {
+		border: 1px solid #1ba638;
+	}
+}
+.col {
+	flex: 1 0 0%;
+}
+.row-cols-1 {
+	>* {
+		flex: 0 0 auto;
+		width: 100%;
+	}
+}
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: calc(var(--bs-gutter-x) * -.5);
+	margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.g-3 {
+	--bs-gutter-x: 1rem;
+	--bs-gutter-y: 1rem;
+}
+.mb-3 {
+	margin-bottom: 1rem !important;
+}
